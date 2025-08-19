@@ -13,13 +13,13 @@ namespace MyApp
             Console.WriteLine("Digite o nome do primeiro aluno:"); // Nome
             nome1 = Console.ReadLine(); // Coleta o nome digitado no console
             Console.WriteLine("Digite a Idade do primeiro aluno:"); // Idade
-            i1 = int.Parse(Console.ReadLine()); // Coleta a idade digitada no console
+            i1 = int.Parse(Console.ReadLine()); // coletando a idade digitada no console
 
             //Pedindo os dados do aluno 2
             Console.WriteLine("Digite o nome do segundo aluno:"); // Nome
             nome2 = Console.ReadLine(); // Coleta a idade digitado no console
             Console.WriteLine("Digite a Idade do segundo aluno:"); // Idade
-            i2 = int.Parse(Console.ReadLine()); // Coleta a idade digitada no console
+            i2 = int.Parse(Console.ReadLine()); // coletando a idade digitada no console
 
             //Operação para comparar as idades e exibir o resultado
             if (i1 > i2) // Compara SE a idade do aluno 1 é maior que a do aluno 2
